@@ -1,6 +1,6 @@
 Feature: Testing login functionality
 
-
+@login
   Scenario: user should be able to logon with valid credentials
    Given user is on the sauceDemo page
     And user logs in with "standard_user","secret_sauce"
