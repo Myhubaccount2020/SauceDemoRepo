@@ -29,3 +29,16 @@ Feature: Test Inventory page
       And sort by "Name (A to Z)"
       Then the first listed product should be "Sauce Labs Backpack"
 
+
+  Scenario: Test cart
+    And user navigates to cart
+    Then user should land on the cart page
+
+    Scenario: Test the ADD TO CART and the REMOVE button
+      And  The button ADD TO CART should be visible for each product
+      Then user add to cart
+      Then user add to cart
+     Then shopping cart number should be incremented
+       And the button REMOVE should be visible
+       Then user remove from cart
+       Then shopping cart number should be decremented

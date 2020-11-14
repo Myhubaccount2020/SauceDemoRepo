@@ -54,4 +54,42 @@ public class InventorySteps {
     public void theFirstListedProductShouldBe(String prodname) {
      Assert.assertTrue(inventoryPage.checkProdname().equals(prodname));
     }
+
+    @And("user navigates to cart")
+    public void userNavigatesToCart() {
+       inventoryPage.navigateTocart();
+    }
+
+    @And("The button ADD TO CART should be visible for each product")
+    public void theButtonADDTOCARTShouldBeVisibleForEachProduct() {
+        Assert.assertTrue(inventoryPage.chechAddCartButton()==6);
+    }
+    @Then("user add to cart")
+    public void user_add_to_cart() {
+       inventoryPage.addTocart();
+
+    }
+
+    @Then("shopping cart number should be incremented")
+    public void shoppingCartNumberShouldBeIncremented() {
+       Assert.assertTrue(inventoryPage.numElemonCart()==inventoryPage.checkRemoveButton());
+       }
+
+
+    @And("the button REMOVE should be visible")
+    public void theButtonREMOVEShouldBeVisible() {
+      Assert.assertTrue(inventoryPage.checkRemoveButton()!=0);
+    }
+    @Then("user remove from cart")
+    public void userRemoveFromCart() {
+        inventoryPage.removeButton();
+    }
+
+
+    @Then("shopping cart number should be decremented")
+    public void shoppingCartNumberShouldBeDecremented() {
+        Assert.assertTrue(inventoryPage.numElemonCart()==inventoryPage.checkRemoveButton());
+    }
+
+
 }

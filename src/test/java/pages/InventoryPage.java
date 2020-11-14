@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-import stepDefs.InventorySteps;
 
 import java.util.List;
 
@@ -59,9 +58,38 @@ public void navigateTolink (String link){
       System.out.println(firstEle.getText());
       return firstEle.getText();
   }
+public void navigateTocart(){
+      driver.findElement(By.id("shopping_cart_container")).click();
+}
+public int chechAddCartButton(){
+    List<WebElement> addCart = driver.findElements(By.xpath("//button[@class='btn_primary btn_inventory']"));
+    return addCart.size();
+}
+public void addTocart(){
+    driver.findElement(By.xpath("//button[@class='btn_primary btn_inventory']")).click();
+}
+public int  numElemonCart (){
+    List<WebElement> removeCart = driver.findElements(By.xpath("//button[@class='btn_secondary btn_inventory']"));
+    //System.out.println(removeCart.size());
+    if (removeCart.size()==0)
+    { int a = 0;
+      return a;
+    }
 
+     WebElement cart= driver.findElement(By.xpath("//span[@class='fa-layers-counter shopping_cart_badge']"));
 
+     int a = Integer.parseInt(cart.getText());
+     //System.out.println("number of cart elemts is "+a);
+    return a;
 
-
+}
+    public int checkRemoveButton() {
+        List<WebElement> removeCart = driver.findElements(By.xpath("//button[@class='btn_secondary btn_inventory']"));
+        //System.out.println("number of removebutton is "+removeCart.size());
+        return removeCart.size();
+    }
+    public void removeButton (){
+        driver.findElement(By.xpath("//button[@class='btn_secondary btn_inventory']")).click();
+    }
 
 }
