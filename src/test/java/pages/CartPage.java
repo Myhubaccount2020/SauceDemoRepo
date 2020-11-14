@@ -26,4 +26,14 @@ public class CartPage {
      public void removeButton(){
          driver.findElement(By.xpath("//button[text()='REMOVE']")).click();
      }
+     public boolean checkCheckoutIsvisible(){
+        return driver.findElement(By.xpath("//a[text()='CHECKOUT']")).isDisplayed();
+     }
+    public void checkoutButton(){
+        driver.findElement(By.xpath("//a[text()='CHECKOUT']")).click();
+    }
+
+
 }
+
+

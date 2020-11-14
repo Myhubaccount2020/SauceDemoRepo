@@ -31,4 +31,17 @@ CartPage cartPage = new CartPage(driver);
     public void userRemoveFromCartPage() {
         cartPage.removeButton();
     }
+
+    @And("the button CHECKOUT should be visible")
+    public void theButtonCHECKOUTShouldBeVisible() {
+       Assert.assertTrue(cartPage.checkCheckoutIsvisible());
+
+    }
+
+    @And("user navigates to checkout page")
+    public void userNavigatesToCheckoutPage() {
+        cartPage.checkoutButton();
+    }
+
+
 }

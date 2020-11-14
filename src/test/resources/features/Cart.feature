@@ -20,3 +20,8 @@ Feature: testing the cart page
         Then user remove from cart page
         Then user remove from cart page
         Then shopping cart number should be decremented
+
+        Scenario: user should be able to navigate to checkout page
+          And the button CHECKOUT should be visible
+          And user navigates to checkout page
+          Then user should land on the checkout page
