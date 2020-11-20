@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6053787600,
+              "duration": 6116162000,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 4073863300,
+              "duration": 3758486000,
               "status": "passed"
             },
             "line": 5,
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 46816400,
+              "duration": 46804000,
               "status": "passed"
             },
             "line": 6,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 49071600,
+              "duration": 52066400,
               "status": "passed"
             },
             "line": 7,
@@ -69,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 33218600,
+              "duration": 44604100,
               "status": "passed"
             },
             "line": 8,
@@ -81,7 +81,7 @@
           },
           {
             "result": {
-              "duration": 54454700,
+              "duration": 48808900,
               "status": "passed"
             },
             "line": 9,
@@ -93,7 +93,7 @@
           },
           {
             "result": {
-              "duration": 158428200,
+              "duration": 164169500,
               "status": "passed"
             },
             "line": 10,
@@ -105,7 +105,7 @@
           },
           {
             "result": {
-              "duration": 48799700,
+              "duration": 44855200,
               "status": "passed"
             },
             "line": 11,
@@ -118,7 +118,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-14T03:42:22.512Z",
+        "start_timestamp": "2020-11-20T03:22:04.567Z",
         "line": 13,
         "name": "user should be able to continue shopping",
         "description": "",
@@ -128,10 +128,22 @@
         "steps": [
           {
             "result": {
-              "duration": 97268300,
+              "duration": 31359600,
               "status": "passed"
             },
             "line": 14,
+            "name": "the button continue shopping should be visible",
+            "match": {
+              "location": "stepDefs.cartSteps.theButtonContinueShoppingShouldBeVisible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95798100,
+              "status": "passed"
+            },
+            "line": 15,
             "name": "user navigates to continue shopping",
             "match": {
               "location": "stepDefs.cartSteps.userNavigatesToContinueShopping()"
@@ -140,10 +152,10 @@
           },
           {
             "result": {
-              "duration": 42848000,
+              "duration": 38887300,
               "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "user should land on the inventory page",
             "match": {
               "location": "stepDefs.InventorySteps.user_should_land_on_the_inventory_page()"
@@ -161,7 +173,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5532698600,
+              "duration": 5537666900,
               "status": "passed"
             },
             "line": 4,
@@ -173,7 +185,7 @@
           },
           {
             "result": {
-              "duration": 3570471900,
+              "duration": 4128282000,
               "status": "passed"
             },
             "line": 5,
@@ -195,7 +207,7 @@
           },
           {
             "result": {
-              "duration": 36298200,
+              "duration": 37346000,
               "status": "passed"
             },
             "line": 6,
@@ -207,7 +219,7 @@
           },
           {
             "result": {
-              "duration": 45915000,
+              "duration": 52428200,
               "status": "passed"
             },
             "line": 7,
@@ -219,7 +231,7 @@
           },
           {
             "result": {
-              "duration": 42863500,
+              "duration": 42548800,
               "status": "passed"
             },
             "line": 8,
@@ -231,7 +243,7 @@
           },
           {
             "result": {
-              "duration": 37914000,
+              "duration": 40809300,
               "status": "passed"
             },
             "line": 9,
@@ -243,7 +255,7 @@
           },
           {
             "result": {
-              "duration": 125050200,
+              "duration": 121629400,
               "status": "passed"
             },
             "line": 10,
@@ -255,7 +267,7 @@
           },
           {
             "result": {
-              "duration": 46843000,
+              "duration": 42722700,
               "status": "passed"
             },
             "line": 11,
@@ -268,8 +280,8 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-14T03:42:33.242Z",
-        "line": 18,
+        "start_timestamp": "2020-11-20T03:22:15.099Z",
+        "line": 19,
         "name": "user should be able to remove a product from cart",
         "description": "",
         "id": "testing-the-cart-page;user-should-be-able-to-remove-a-product-from-cart",
@@ -278,10 +290,10 @@
         "steps": [
           {
             "result": {
-              "duration": 28044800,
+              "duration": 31323800,
               "status": "passed"
             },
-            "line": 19,
+            "line": 20,
             "name": "the button REMOVE from cart page should be visible",
             "match": {
               "location": "stepDefs.cartSteps.theButtonREMOVEFromCartPageShouldBeVisible()"
@@ -290,19 +302,7 @@
           },
           {
             "result": {
-              "duration": 44442100,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "user remove from cart page",
-            "match": {
-              "location": "stepDefs.cartSteps.userRemoveFromCartPage()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 47640400,
+              "duration": 38573200,
               "status": "passed"
             },
             "line": 21,
@@ -314,13 +314,187 @@
           },
           {
             "result": {
-              "duration": 27476600,
+              "duration": 39392000,
               "status": "passed"
             },
             "line": 22,
+            "name": "user remove from cart page",
+            "match": {
+              "location": "stepDefs.cartSteps.userRemoveFromCartPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33768000,
+              "status": "passed"
+            },
+            "line": 23,
             "name": "shopping cart number should be decremented",
             "match": {
               "location": "stepDefs.InventorySteps.shoppingCartNumberShouldBeDecremented()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5510093500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the sauceDemo page",
+            "match": {
+              "location": "stepDefs.loginSteps.user_is_on_the_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3777191400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in with \"standard_user\",\"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefs.loginSteps.userLogsInWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26799700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should land on the inventory page",
+            "match": {
+              "location": "stepDefs.InventorySteps.user_should_land_on_the_inventory_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44793700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user add to cart",
+            "match": {
+              "location": "stepDefs.InventorySteps.user_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44649200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user add to cart",
+            "match": {
+              "location": "stepDefs.InventorySteps.user_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48360500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user add to cart",
+            "match": {
+              "location": "stepDefs.InventorySteps.user_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125008300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user navigates to cart",
+            "match": {
+              "location": "stepDefs.InventorySteps.userNavigatesToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42216400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should land on the cart page",
+            "match": {
+              "location": "stepDefs.cartSteps.user_should_land_on_the_cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-20T03:22:25.251Z",
+        "line": 25,
+        "name": "user should be able to navigate to checkout page",
+        "description": "",
+        "id": "testing-the-cart-page;user-should-be-able-to-navigate-to-checkout-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25802800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the button CHECKOUT should be visible",
+            "match": {
+              "location": "stepDefs.cartSteps.theButtonCHECKOUTShouldBeVisible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134937500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user navigates to checkout page",
+            "match": {
+              "location": "stepDefs.cartSteps.userNavigatesToCheckoutPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33886300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user should land on the checkout page",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userShouldLandOnTheCheckoutPage()"
             },
             "keyword": "Then "
           }
@@ -338,6 +512,943 @@
     "line": 1,
     "elements": [
       {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5509881500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the sauceDemo page",
+            "match": {
+              "location": "stepDefs.loginSteps.user_is_on_the_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3700392600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs in with \"standard_user\",\"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefs.loginSteps.userLogsInWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33408200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should land on the inventory page",
+            "match": {
+              "location": "stepDefs.InventorySteps.user_should_land_on_the_inventory_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44444500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user add to cart",
+            "match": {
+              "location": "stepDefs.InventorySteps.user_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131556300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to cart",
+            "match": {
+              "location": "stepDefs.InventorySteps.userNavigatesToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44849200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should land on the cart page",
+            "match": {
+              "location": "stepDefs.cartSteps.user_should_land_on_the_cart_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31489200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the button CHECKOUT should be visible",
+            "match": {
+              "location": "stepDefs.cartSteps.theButtonCHECKOUTShouldBeVisible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311120400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user navigates to checkout page",
+            "match": {
+              "location": "stepDefs.cartSteps.userNavigatesToCheckoutPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27909600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should land on the checkout page",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userShouldLandOnTheCheckoutPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-20T03:22:35.073Z",
+        "line": 16,
+        "name": "user should be able to cancel the checkout",
+        "description": "",
+        "id": "testing-the-checkout-page;user-should-be-able-to-cancel-the-checkout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28303400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the button CANCEL should be visible",
+            "match": {
+              "location": "stepDefs.checkoutSteps.theButtonCANCELShouldBeVisible()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 87319500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user cancel the checkout",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userCancelTheCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33873800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should land on the cart page",
+            "match": {
+              "location": "stepDefs.cartSteps.user_should_land_on_the_cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5526966400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the sauceDemo page",
+            "match": {
+              "location": "stepDefs.loginSteps.user_is_on_the_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3913163100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs in with \"standard_user\",\"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefs.loginSteps.userLogsInWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31323700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should land on the inventory page",
+            "match": {
+              "location": "stepDefs.InventorySteps.user_should_land_on_the_inventory_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46495100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user add to cart",
+            "match": {
+              "location": "stepDefs.InventorySteps.user_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134285400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to cart",
+            "match": {
+              "location": "stepDefs.InventorySteps.userNavigatesToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36106700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should land on the cart page",
+            "match": {
+              "location": "stepDefs.cartSteps.user_should_land_on_the_cart_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24022900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the button CHECKOUT should be visible",
+            "match": {
+              "location": "stepDefs.cartSteps.theButtonCHECKOUTShouldBeVisible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126061200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user navigates to checkout page",
+            "match": {
+              "location": "stepDefs.cartSteps.userNavigatesToCheckoutPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29600200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should land on the checkout page",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userShouldLandOnTheCheckoutPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-20T03:22:45.067Z",
+        "line": 22,
+        "name": "user should be able to continue checkout",
+        "description": "",
+        "id": "testing-the-checkout-page;user-should-be-able-to-continue-checkout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 160132300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enter \"mourad\",\"ikhlef\",\"30101\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mourad\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"ikhlef\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"30101\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefs.checkoutSteps.userEnter(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155073200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user click on the button continue",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userClickOnTheButtonContinue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58851100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user should land on the checkout overview",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userShouldLandOnTheCheckoutOverview()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5522170500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the sauceDemo page",
+            "match": {
+              "location": "stepDefs.loginSteps.user_is_on_the_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3755194400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs in with \"standard_user\",\"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefs.loginSteps.userLogsInWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28281500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should land on the inventory page",
+            "match": {
+              "location": "stepDefs.InventorySteps.user_should_land_on_the_inventory_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45702600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user add to cart",
+            "match": {
+              "location": "stepDefs.InventorySteps.user_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144514700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to cart",
+            "match": {
+              "location": "stepDefs.InventorySteps.userNavigatesToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37884500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should land on the cart page",
+            "match": {
+              "location": "stepDefs.cartSteps.user_should_land_on_the_cart_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21724600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the button CHECKOUT should be visible",
+            "match": {
+              "location": "stepDefs.cartSteps.theButtonCHECKOUTShouldBeVisible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112487200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user navigates to checkout page",
+            "match": {
+              "location": "stepDefs.cartSteps.userNavigatesToCheckoutPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34937400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should land on the checkout page",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userShouldLandOnTheCheckoutPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-20T03:22:55.312Z",
+        "line": 35,
+        "name": "user should not be able to continue checkout without first name,last name and zip code",
+        "description": "",
+        "id": "testing-the-checkout-page;user-should-not-be-able-to-continue-checkout-without-first-name-last-name-and-zip-code;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 171399300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enter \"\",\"ikhlef\",\"30101\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"ikhlef\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"30101\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefs.checkoutSteps.userEnter(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56809400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user click on the button continue",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userClickOnTheButtonContinue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28904200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user should see an error message",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userShouldSeeAnErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5514586500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the sauceDemo page",
+            "match": {
+              "location": "stepDefs.loginSteps.user_is_on_the_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3956205400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs in with \"standard_user\",\"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefs.loginSteps.userLogsInWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28535700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should land on the inventory page",
+            "match": {
+              "location": "stepDefs.InventorySteps.user_should_land_on_the_inventory_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47748000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user add to cart",
+            "match": {
+              "location": "stepDefs.InventorySteps.user_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135895200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to cart",
+            "match": {
+              "location": "stepDefs.InventorySteps.userNavigatesToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33885000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should land on the cart page",
+            "match": {
+              "location": "stepDefs.cartSteps.user_should_land_on_the_cart_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24286300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the button CHECKOUT should be visible",
+            "match": {
+              "location": "stepDefs.cartSteps.theButtonCHECKOUTShouldBeVisible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124960600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user navigates to checkout page",
+            "match": {
+              "location": "stepDefs.cartSteps.userNavigatesToCheckoutPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33880800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should land on the checkout page",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userShouldLandOnTheCheckoutPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-20T03:23:05.278Z",
+        "line": 36,
+        "name": "user should not be able to continue checkout without first name,last name and zip code",
+        "description": "",
+        "id": "testing-the-checkout-page;user-should-not-be-able-to-continue-checkout-without-first-name-last-name-and-zip-code;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 152906200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enter \"mourad\",\"\",\"30101\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mourad\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"30101\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefs.checkoutSteps.userEnter(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45847000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user click on the button continue",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userClickOnTheButtonContinue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24001600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user should see an error message",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userShouldSeeAnErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5457419100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the sauceDemo page",
+            "match": {
+              "location": "stepDefs.loginSteps.user_is_on_the_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4494461800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs in with \"standard_user\",\"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefs.loginSteps.userLogsInWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35553400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should land on the inventory page",
+            "match": {
+              "location": "stepDefs.InventorySteps.user_should_land_on_the_inventory_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44286500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user add to cart",
+            "match": {
+              "location": "stepDefs.InventorySteps.user_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138306800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to cart",
+            "match": {
+              "location": "stepDefs.InventorySteps.userNavigatesToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35945200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should land on the cart page",
+            "match": {
+              "location": "stepDefs.cartSteps.user_should_land_on_the_cart_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25252400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the button CHECKOUT should be visible",
+            "match": {
+              "location": "stepDefs.cartSteps.theButtonCHECKOUTShouldBeVisible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126233100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user navigates to checkout page",
+            "match": {
+              "location": "stepDefs.cartSteps.userNavigatesToCheckoutPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34881400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should land on the checkout page",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userShouldLandOnTheCheckoutPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-20T03:23:15.407Z",
+        "line": 37,
+        "name": "user should not be able to continue checkout without first name,last name and zip code",
+        "description": "",
+        "id": "testing-the-checkout-page;user-should-not-be-able-to-continue-checkout-without-first-name-last-name-and-zip-code;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 157840200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enter \"mourad\",\"ikhlef\",\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mourad\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"ikhlef\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefs.checkoutSteps.userEnter(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52824400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user click on the button continue",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userClickOnTheButtonContinue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31242200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user should see an error message",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userShouldSeeAnErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing the checkout page",
+    "description": "",
+    "id": "testing-the-checkout-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Checkout.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
         "line": 3,
         "name": "",
         "description": "",
@@ -346,7 +1457,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5490164600,
+              "duration": 5453002000,
               "status": "passed"
             },
             "line": 4,
@@ -358,7 +1469,7 @@
           },
           {
             "result": {
-              "duration": 3653317500,
+              "duration": 4102972100,
               "status": "passed"
             },
             "line": 5,
@@ -380,7 +1491,466 @@
           },
           {
             "result": {
-              "duration": 32125600,
+              "duration": 30587400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should land on the inventory page",
+            "match": {
+              "location": "stepDefs.InventorySteps.user_should_land_on_the_inventory_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42773700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user add to cart",
+            "match": {
+              "location": "stepDefs.InventorySteps.user_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 518423300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigates to cart",
+            "match": {
+              "location": "stepDefs.InventorySteps.userNavigatesToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40866100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should land on the cart page",
+            "match": {
+              "location": "stepDefs.cartSteps.user_should_land_on_the_cart_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19359100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the button CHECKOUT should be visible",
+            "match": {
+              "location": "stepDefs.cartSteps.theButtonCHECKOUTShouldBeVisible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120760400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user navigates to checkout page",
+            "match": {
+              "location": "stepDefs.cartSteps.userNavigatesToCheckoutPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33881500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should land on the checkout page",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userShouldLandOnTheCheckoutPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 166445200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enter \"mourad\",\"ikhlef\",\"30101\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mourad\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"ikhlef\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"30101\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefs.checkoutSteps.userEnter(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 349828300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on the button continue",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userClickOnTheButtonContinue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 64452300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should land on the checkout overview",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userShouldLandOnTheCheckoutOverview()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-20T03:23:26.046Z",
+        "line": 18,
+        "name": "user should be able to cancel checkout",
+        "description": "",
+        "id": "testing-the-checkout-overview-page;user-should-be-able-to-cancel-checkout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28405200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the button CANCEL should be visible from the checkout overview page",
+            "match": {
+              "location": "stepDefs.checkouOverviewSteps.the_button_cancel_should_be_visible_from_the_checkout_overview_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136167900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click on the button cancel",
+            "match": {
+              "location": "stepDefs.checkouOverviewSteps.userClickOnTheButtonCancel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47838300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should land on the inventory page",
+            "match": {
+              "location": "stepDefs.InventorySteps.user_should_land_on_the_inventory_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5590497800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the sauceDemo page",
+            "match": {
+              "location": "stepDefs.loginSteps.user_is_on_the_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3876991700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in with \"standard_user\",\"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefs.loginSteps.userLogsInWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27968300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should land on the inventory page",
+            "match": {
+              "location": "stepDefs.InventorySteps.user_should_land_on_the_inventory_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46646800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user add to cart",
+            "match": {
+              "location": "stepDefs.InventorySteps.user_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153117900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigates to cart",
+            "match": {
+              "location": "stepDefs.InventorySteps.userNavigatesToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39769600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should land on the cart page",
+            "match": {
+              "location": "stepDefs.cartSteps.user_should_land_on_the_cart_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18936700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the button CHECKOUT should be visible",
+            "match": {
+              "location": "stepDefs.cartSteps.theButtonCHECKOUTShouldBeVisible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131565100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user navigates to checkout page",
+            "match": {
+              "location": "stepDefs.cartSteps.userNavigatesToCheckoutPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35875700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should land on the checkout page",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userShouldLandOnTheCheckoutPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 158468000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enter \"mourad\",\"ikhlef\",\"30101\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mourad\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"ikhlef\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"30101\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefs.checkoutSteps.userEnter(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147506500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on the button continue",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userClickOnTheButtonContinue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 59424300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should land on the checkout overview",
+            "match": {
+              "location": "stepDefs.checkoutSteps.userShouldLandOnTheCheckoutOverview()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-20T03:23:37.212Z",
+        "line": 24,
+        "name": "user should be able to finish the checkout",
+        "description": "",
+        "id": "testing-the-checkout-overview-page;user-should-be-able-to-finish-the-checkout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19494200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the button FINISH should be visible",
+            "match": {
+              "location": "stepDefs.checkouOverviewSteps.theButtonFINISHShouldBeVisible()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 184838900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user finish the checkout",
+            "match": {
+              "location": "stepDefs.checkouOverviewSteps.userFinishTheCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34871800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user should land on the complete checkout page",
+            "match": {
+              "location": "stepDefs.checkouOverviewSteps.userShouldLandOnTheCompleteCheckoutPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing the checkout overview page",
+    "description": "",
+    "id": "testing-the-checkout-overview-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/CheckoutOverview.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5712293600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the sauceDemo page",
+            "match": {
+              "location": "stepDefs.loginSteps.user_is_on_the_sauce_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3815348400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in with \"standard_user\",\"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefs.loginSteps.userLogsInWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46944700,
               "status": "passed"
             },
             "line": 6,
@@ -393,7 +1963,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-14T03:42:42.832Z",
+        "start_timestamp": "2020-11-20T03:23:47.744Z",
         "line": 8,
         "name": "Test the navigation menu",
         "description": "",
@@ -403,7 +1973,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24692500,
+              "duration": 21031000,
               "status": "passed"
             },
             "line": 9,
@@ -415,7 +1985,7 @@
           },
           {
             "result": {
-              "duration": 3054838500,
+              "duration": 3056073600,
               "status": "passed"
             },
             "line": 10,
@@ -427,7 +1997,7 @@
           },
           {
             "result": {
-              "duration": 92021000,
+              "duration": 104045200,
               "status": "passed"
             },
             "line": 11,
@@ -445,7 +2015,7 @@
           },
           {
             "result": {
-              "duration": 17953500,
+              "duration": 19934800,
               "status": "passed"
             },
             "line": 12,
@@ -466,7 +2036,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5474658300,
+              "duration": 6211482700,
               "status": "passed"
             },
             "line": 4,
@@ -478,7 +2048,7 @@
           },
           {
             "result": {
-              "duration": 3593947500,
+              "duration": 3836419700,
               "status": "passed"
             },
             "line": 5,
@@ -500,7 +2070,7 @@
           },
           {
             "result": {
-              "duration": 31618000,
+              "duration": 39033600,
               "status": "passed"
             },
             "line": 6,
@@ -513,7 +2083,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-14T03:42:55.210Z",
+        "start_timestamp": "2020-11-20T03:24:00.536Z",
         "line": 21,
         "name": "Test the navigation menu",
         "description": "",
@@ -523,7 +2093,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24338200,
+              "duration": 19086500,
               "status": "passed"
             },
             "line": 15,
@@ -535,7 +2105,7 @@
           },
           {
             "result": {
-              "duration": 3063145000,
+              "duration": 3061907500,
               "status": "passed"
             },
             "line": 16,
@@ -547,7 +2117,7 @@
           },
           {
             "result": {
-              "duration": 88714300,
+              "duration": 104229300,
               "status": "passed"
             },
             "line": 17,
@@ -574,7 +2144,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5498347700,
+              "duration": 5721516400,
               "status": "passed"
             },
             "line": 4,
@@ -586,7 +2156,7 @@
           },
           {
             "result": {
-              "duration": 3929049400,
+              "duration": 4441219600,
               "status": "passed"
             },
             "line": 5,
@@ -608,7 +2178,7 @@
           },
           {
             "result": {
-              "duration": 35441300,
+              "duration": 27641200,
               "status": "passed"
             },
             "line": 6,
@@ -621,7 +2191,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-14T03:43:07.498Z",
+        "start_timestamp": "2020-11-20T03:24:13.818Z",
         "line": 22,
         "name": "Test the navigation menu",
         "description": "",
@@ -631,7 +2201,7 @@
         "steps": [
           {
             "result": {
-              "duration": 21440600,
+              "duration": 20221100,
               "status": "passed"
             },
             "line": 15,
@@ -643,7 +2213,7 @@
           },
           {
             "result": {
-              "duration": 3063163200,
+              "duration": 3055800700,
               "status": "passed"
             },
             "line": 16,
@@ -655,7 +2225,7 @@
           },
           {
             "result": {
-              "duration": 2036381500,
+              "duration": 3254311100,
               "status": "passed"
             },
             "line": 17,
@@ -682,7 +2252,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5780094800,
+              "duration": 5545745400,
               "status": "passed"
             },
             "line": 4,
@@ -694,7 +2264,7 @@
           },
           {
             "result": {
-              "duration": 4250942400,
+              "duration": 3826374400,
               "status": "passed"
             },
             "line": 5,
@@ -716,7 +2286,7 @@
           },
           {
             "result": {
-              "duration": 31460200,
+              "duration": 29274700,
               "status": "passed"
             },
             "line": 6,
@@ -729,7 +2299,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-14T03:43:22.085Z",
+        "start_timestamp": "2020-11-20T03:24:30.344Z",
         "line": 23,
         "name": "Test the navigation menu",
         "description": "",
@@ -739,7 +2309,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24540700,
+              "duration": 19423700,
               "status": "passed"
             },
             "line": 15,
@@ -751,7 +2321,7 @@
           },
           {
             "result": {
-              "duration": 3069140100,
+              "duration": 3056120700,
               "status": "passed"
             },
             "line": 16,
@@ -763,7 +2333,7 @@
           },
           {
             "result": {
-              "duration": 48784800,
+              "duration": 44475200,
               "status": "passed"
             },
             "line": 17,
@@ -790,7 +2360,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5446509500,
+              "duration": 5788791000,
               "status": "passed"
             },
             "line": 4,
@@ -802,7 +2372,7 @@
           },
           {
             "result": {
-              "duration": 4440915800,
+              "duration": 3725697700,
               "status": "passed"
             },
             "line": 5,
@@ -824,7 +2394,7 @@
           },
           {
             "result": {
-              "duration": 41652600,
+              "duration": 28639900,
               "status": "passed"
             },
             "line": 6,
@@ -837,7 +2407,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-14T03:43:35.294Z",
+        "start_timestamp": "2020-11-20T03:24:42.871Z",
         "line": 24,
         "name": "Test the navigation menu",
         "description": "",
@@ -847,7 +2417,7 @@
         "steps": [
           {
             "result": {
-              "duration": 22966400,
+              "duration": 21435300,
               "status": "passed"
             },
             "line": 15,
@@ -859,7 +2429,7 @@
           },
           {
             "result": {
-              "duration": 3055752700,
+              "duration": 3059444500,
               "status": "passed"
             },
             "line": 16,
@@ -871,7 +2441,7 @@
           },
           {
             "result": {
-              "duration": 141904100,
+              "duration": 155662900,
               "status": "passed"
             },
             "line": 17,
@@ -898,7 +2468,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5458543700,
+              "duration": 5458523800,
               "status": "passed"
             },
             "line": 4,
@@ -910,7 +2480,7 @@
           },
           {
             "result": {
-              "duration": 3922972000,
+              "duration": 4304754300,
               "status": "passed"
             },
             "line": 5,
@@ -932,7 +2502,7 @@
           },
           {
             "result": {
-              "duration": 34542300,
+              "duration": 28747000,
               "status": "passed"
             },
             "line": 6,
@@ -945,7 +2515,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-14T03:43:48.451Z",
+        "start_timestamp": "2020-11-20T03:24:55.660Z",
         "line": 26,
         "name": "Test sorting products",
         "description": "",
@@ -955,7 +2525,7 @@
         "steps": [
           {
             "result": {
-              "duration": 326008200,
+              "duration": 82555600,
               "status": "passed"
             },
             "line": 27,
@@ -973,7 +2543,7 @@
           },
           {
             "result": {
-              "duration": 39961500,
+              "duration": 38882700,
               "status": "passed"
             },
             "line": 28,
@@ -991,7 +2561,7 @@
           },
           {
             "result": {
-              "duration": 62814900,
+              "duration": 61037200,
               "status": "passed"
             },
             "line": 29,
@@ -1009,7 +2579,7 @@
           },
           {
             "result": {
-              "duration": 29542000,
+              "duration": 24953000,
               "status": "passed"
             },
             "line": 30,
@@ -1036,7 +2606,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6249196700,
+              "duration": 5522146400,
               "status": "passed"
             },
             "line": 4,
@@ -1048,7 +2618,7 @@
           },
           {
             "result": {
-              "duration": 5329341100,
+              "duration": 3770761600,
               "status": "passed"
             },
             "line": 5,
@@ -1070,7 +2640,7 @@
           },
           {
             "result": {
-              "duration": 31448800,
+              "duration": 30968500,
               "status": "passed"
             },
             "line": 6,
@@ -1083,7 +2653,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-14T03:43:58.330Z",
+        "start_timestamp": "2020-11-20T03:25:05.664Z",
         "line": 33,
         "name": "Test cart",
         "description": "",
@@ -1093,7 +2663,7 @@
         "steps": [
           {
             "result": {
-              "duration": 134911900,
+              "duration": 187199300,
               "status": "passed"
             },
             "line": 34,
@@ -1105,7 +2675,7 @@
           },
           {
             "result": {
-              "duration": 40817400,
+              "duration": 39869800,
               "status": "passed"
             },
             "line": 35,
@@ -1126,7 +2696,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5464702700,
+              "duration": 5865560200,
               "status": "passed"
             },
             "line": 4,
@@ -1138,7 +2708,7 @@
           },
           {
             "result": {
-              "duration": 3708923200,
+              "duration": 4136327000,
               "status": "passed"
             },
             "line": 5,
@@ -1160,7 +2730,7 @@
           },
           {
             "result": {
-              "duration": 35798100,
+              "duration": 33994700,
               "status": "passed"
             },
             "line": 6,
@@ -1173,7 +2743,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-14T03:44:10.119Z",
+        "start_timestamp": "2020-11-20T03:25:15.219Z",
         "line": 37,
         "name": "Test the ADD TO CART and the REMOVE button",
         "description": "",
@@ -1183,7 +2753,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11638200,
+              "duration": 12436300,
               "status": "passed"
             },
             "line": 38,
@@ -1195,7 +2765,7 @@
           },
           {
             "result": {
-              "duration": 46058400,
+              "duration": 48595800,
               "status": "passed"
             },
             "line": 39,
@@ -1207,7 +2777,7 @@
           },
           {
             "result": {
-              "duration": 37847900,
+              "duration": 36546900,
               "status": "passed"
             },
             "line": 40,
@@ -1219,7 +2789,7 @@
           },
           {
             "result": {
-              "duration": 41935200,
+              "duration": 40866700,
               "status": "passed"
             },
             "line": 41,
@@ -1231,7 +2801,7 @@
           },
           {
             "result": {
-              "duration": 7041600,
+              "duration": 7971800,
               "status": "passed"
             },
             "line": 42,
@@ -1243,7 +2813,7 @@
           },
           {
             "result": {
-              "duration": 31890000,
+              "duration": 46858900,
               "status": "passed"
             },
             "line": 43,
@@ -1255,7 +2825,7 @@
           },
           {
             "result": {
-              "duration": 24915900,
+              "duration": 33873700,
               "status": "passed"
             },
             "line": 44,
@@ -1279,7 +2849,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-11-14T03:44:19.534Z",
+        "start_timestamp": "2020-11-20T03:25:25.484Z",
         "line": 4,
         "name": "user should be able to logon with valid credentials",
         "description": "",
@@ -1289,7 +2859,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5554226600,
+              "duration": 5758112000,
               "status": "passed"
             },
             "line": 5,
@@ -1301,7 +2871,7 @@
           },
           {
             "result": {
-              "duration": 3809585800,
+              "duration": 4541791600,
               "status": "passed"
             },
             "line": 6,
@@ -1323,7 +2893,7 @@
           },
           {
             "result": {
-              "duration": 30187900,
+              "duration": 29859200,
               "status": "passed"
             },
             "line": 7,
@@ -1341,7 +2911,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-14T03:44:28.932Z",
+        "start_timestamp": "2020-11-20T03:25:35.819Z",
         "line": 17,
         "name": "test all users",
         "description": "",
@@ -1351,7 +2921,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5542733400,
+              "duration": 5594413100,
               "status": "passed"
             },
             "line": 11,
@@ -1363,7 +2933,7 @@
           },
           {
             "result": {
-              "duration": 4045399200,
+              "duration": 4205054000,
               "status": "passed"
             },
             "line": 12,
@@ -1385,7 +2955,7 @@
           },
           {
             "result": {
-              "duration": 36191100,
+              "duration": 31964600,
               "status": "passed"
             },
             "line": 13,
@@ -1398,7 +2968,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-14T03:44:38.559Z",
+        "start_timestamp": "2020-11-20T03:25:45.652Z",
         "line": 18,
         "name": "test all users",
         "description": "",
@@ -1408,7 +2978,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5608382900,
+              "duration": 5696183300,
               "status": "passed"
             },
             "line": 11,
@@ -1420,7 +2990,7 @@
           },
           {
             "result": {
-              "duration": 3511075100,
+              "duration": 3622786600,
               "status": "passed"
             },
             "line": 12,
@@ -1442,7 +3012,7 @@
           },
           {
             "result": {
-              "duration": 33905800,
+              "duration": 27612200,
               "status": "passed"
             },
             "line": 13,
@@ -1455,7 +3025,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-14T03:44:47.722Z",
+        "start_timestamp": "2020-11-20T03:25:55.002Z",
         "line": 19,
         "name": "test all users",
         "description": "",
@@ -1465,7 +3035,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5446148000,
+              "duration": 5796626100,
               "status": "passed"
             },
             "line": 11,
@@ -1477,7 +3047,7 @@
           },
           {
             "result": {
-              "duration": 8833527500,
+              "duration": 8746679600,
               "status": "passed"
             },
             "line": 12,
@@ -1499,7 +3069,7 @@
           },
           {
             "result": {
-              "duration": 33723400,
+              "duration": 34735900,
               "status": "passed"
             },
             "line": 13,
@@ -1512,7 +3082,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-14T03:45:02.041Z",
+        "start_timestamp": "2020-11-20T03:26:09.582Z",
         "line": 23,
         "name": "user should not be able to login with invalid data",
         "description": "",
@@ -1522,7 +3092,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5685541500,
+              "duration": 5656104800,
               "status": "passed"
             },
             "line": 24,
@@ -1534,7 +3104,7 @@
           },
           {
             "result": {
-              "duration": 3265447800,
+              "duration": 3267020800,
               "status": "passed"
             },
             "line": 25,
@@ -1556,7 +3126,7 @@
           },
           {
             "result": {
-              "duration": 37102400,
+              "duration": 29629100,
               "status": "passed"
             },
             "line": 26,
@@ -1573,7 +3143,7 @@
     "description": "",
     "id": "testing-login-functionality",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/login.feature",
+    "uri": "file:src/test/resources/features/Login.feature",
     "tags": []
   }
 ]

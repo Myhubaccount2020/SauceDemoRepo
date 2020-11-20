@@ -50,7 +50,7 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                90,
+                192,
                 0,
                 0,
                 0,
@@ -93,7 +93,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 90) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 192) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -106,7 +106,7 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                15,
+                23,
                 0
             ],
             backgroundColor: [
@@ -140,7 +140,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 15) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 23) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -153,7 +153,7 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                   3,
+                   5,
                    0
                ],
                backgroundColor: [
@@ -187,7 +187,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 3) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 5) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -230,7 +230,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>MIsauceDemo</td>
         <td>111320</td>
-      <td>13 Nov 2020, 22:45</td>
+      <td>19 Nov 2020, 22:26</td>
     </tr>
   </tbody>
 </table>
@@ -327,22 +327,56 @@ $(document).ready(function() {
       <tr>
         <td class="tagname"><a href="report-feature_2483735163.html">testing the cart page</a></td>
 
-        <td      class="passed"    >22</td>
+        <td      class="passed"    >34</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">22</td>
+        <td class="total">34</td>
+
+        <td  class="passed"    >3</td>
+        <td >0</td>
+        <td class="total">3</td>
+
+        <td class="duration" data-value="30402230700">30.402</td>
+        <td class="passed">Passed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_1_2319174817.html">Testing the checkout page</a></td>
+
+        <td      class="passed"    >60</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">60</td>
+
+        <td  class="passed"    >5</td>
+        <td >0</td>
+        <td class="total">5</td>
+
+        <td class="duration" data-value="50943624600">50.943</td>
+        <td class="passed">Passed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_2_2366520122.html">Testing the checkout overview page</a></td>
+
+        <td      class="passed"    >30</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">30</td>
 
         <td  class="passed"    >2</td>
         <td >0</td>
         <td class="total">2</td>
 
-        <td class="duration" data-value="20244214700">20.244</td>
+        <td class="duration" data-value="21681736100">21.681</td>
         <td class="passed">Passed</td>
       </tr>
       <tr>
-        <td class="tagname"><a href="report-feature_1_595343503.html">Test Inventory page</a></td>
+        <td class="tagname"><a href="report-feature_3_595343503.html">Test Inventory page</a></td>
 
         <td      class="passed"    >53</td>
         <td >0</td>
@@ -355,11 +389,11 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">8</td>
 
-        <td class="duration" data-value="96650874000">1:36.650</td>
+        <td class="duration" data-value="97683057300">1:37.683</td>
         <td class="passed">Passed</td>
       </tr>
       <tr>
-        <td class="tagname"><a href="report-feature_2_965572540.html">Testing login functionality</a></td>
+        <td class="tagname"><a href="report-feature_4_1764534172.html">Testing login functionality</a></td>
 
         <td      class="passed"    >15</td>
         <td >0</td>
@@ -372,7 +406,7 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">5</td>
 
-        <td class="duration" data-value="51473178400">51.473</td>
+        <td class="duration" data-value="53038572900">53.038</td>
         <td class="passed">Passed</td>
       </tr>
   </tbody>
@@ -380,19 +414,19 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>90</td>
+      <td>192</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>90</td>
+      <td>192</td>
 
-      <td>15</td>
+      <td>23</td>
       <td>0</td>
-      <td>15</td>
+      <td>23</td>
 
-      <td class="duration">2:48.368</td>
-      <td>3</td>
+      <td class="duration">4:13.749</td>
+      <td>5</td>
     </tr>
     <tr>
       <td></td>

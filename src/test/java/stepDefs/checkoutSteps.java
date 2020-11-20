@@ -44,8 +44,19 @@ public class checkoutSteps {
     }
 
 
+    @Then("user should land on the checkout overview")
+    public void userShouldLandOnTheCheckoutOverview() {
+       Assert.assertTrue(checkoutPage.checkFinishIsvisible());
+       checkoutPage.itemPrice();
+    }
+
+
+
     @Then("user should see an error message")
     public void userShouldSeeAnErrorMessage() {
      Assert.assertTrue(checkoutPage.checkErrorButton());
     }
+
+
+
 }

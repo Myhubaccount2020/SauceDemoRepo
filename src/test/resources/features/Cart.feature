@@ -11,6 +11,7 @@ Feature: testing the cart page
     Then user should land on the cart page
 
     Scenario: user should be able to continue shopping
+      And the button continue shopping should be visible
       And user navigates to continue shopping
       Then user should land on the inventory page
 

@@ -34,4 +34,12 @@ public class CheckoutPage {
     public boolean checkErrorButton(){
         return driver.findElement(By.xpath("//button[@class='error-button']")).isDisplayed();
     }
+    public boolean checkFinishIsvisible(){
+        return driver.findElement(By.linkText("FINISH")).isDisplayed();
+    }
+
+    public void itemPrice(){
+       String price= driver.findElement(By.className("inventory_item_price")).getText();
+        System.out.println(price);
+    }
 }

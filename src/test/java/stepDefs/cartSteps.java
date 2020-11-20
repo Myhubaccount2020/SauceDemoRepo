@@ -16,6 +16,10 @@ CartPage cartPage = new CartPage(driver);
         cartPage.checkEleIsvisible();
 
     }
+    @And("the button continue shopping should be visible")
+    public void theButtonContinueShoppingShouldBeVisible() {
+       Assert.assertTrue(cartPage.checkcontinueIsvisible());
+    }
 
     @And("user navigates to continue shopping")
     public void userNavigatesToContinueShopping() {
@@ -42,6 +46,7 @@ CartPage cartPage = new CartPage(driver);
     public void userNavigatesToCheckoutPage() {
         cartPage.checkoutButton();
     }
+
 
 
 }

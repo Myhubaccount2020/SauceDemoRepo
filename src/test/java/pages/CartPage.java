@@ -15,8 +15,12 @@ public class CartPage {
         return driver.findElement(By.linkText("CHECKOUT")).isDisplayed();
 
      }
+    public boolean checkcontinueIsvisible(){
+        return driver.findElement(By.linkText("CONTINUE SHOPPING")).isDisplayed();
+
+    }
      public void continueShopping (){
-        driver.findElement(By.xpath("//a[text()='Continue Shopping']")).click();
+        driver.findElement(By.linkText("CONTINUE SHOPPING")).click();
 
      }
      public  boolean checkremoveIsvisible (){

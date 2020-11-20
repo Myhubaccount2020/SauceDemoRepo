@@ -18,12 +18,22 @@ Feature: Testing the checkout page
       And user cancel the checkout
       Then user should land on the cart page
 
+
       Scenario: user should be able to continue checkout
          And user enter "mourad","ikhlef","30101"
         Then user click on the button continue
+        Then user should land on the checkout overview
 
 
-        Scenario: user should not be able to continue checkout without first name,last name and zip code
-          And user enter "mourad","ikhlef",""
-          Then user click on the button continue
-          Then user should see an error message
+  Scenario Outline: user should not be able to continue checkout without first name,last name and zip code
+    And user enter "<firstname>","<lastname>","<zipcode>"
+    Then user click on the button continue
+    Then user should see an error message
+
+    Examples:
+      | firstname | lastname | zipcode |
+      |       | ikhlef | 30101 |
+      |mourad |        | 30101 |
+      |mourad | ikhlef |       |
+
+
