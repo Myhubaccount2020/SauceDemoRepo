@@ -31,14 +31,19 @@ Feature: Test Inventory page
 
 
   Scenario: Test cart
+    And the cart button should be visible
     And user navigates to cart
     Then user should land on the cart page
 
-    Scenario: Test the ADD TO CART and the REMOVE button
+    Scenario: Test the ADD TO CART and remove from cart
       And  The button ADD TO CART should be visible for each product
-      Then user add to cart
-      Then user add to cart
-     Then shopping cart number should be incremented
-       And the button REMOVE should be visible
-       Then user remove from cart
-       Then shopping cart number should be decremented
+      Then user add the product number "0" to cart
+      Then user add the product number "1" to cart
+      Then user add the product number "2" to cart
+      Then shopping cart number should be incremented
+      And the button REMOVE should be visible
+      Then user remove the product number "0" from cart
+      Then shopping cart number should be decremented
+
+
+
