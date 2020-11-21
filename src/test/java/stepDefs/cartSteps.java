@@ -31,9 +31,9 @@ CartPage cartPage = new CartPage(driver);
         Assert.assertTrue(cartPage.checkremoveIsvisible());
     }
 
-    @Then("user remove from cart page")
-    public void userRemoveFromCartPage() {
-        cartPage.removeButton();
+    @Then("user remove the product {string} from cart page")
+    public void userRemoveTheProductFromCartPage(String ele) {
+        cartPage.removeProduct(Integer.parseInt(ele));
     }
 
     @And("the button CHECKOUT should be visible")

@@ -3,6 +3,7 @@ package stepDefs;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.junit.AfterClass;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import pages.CheckoutOverviewPage;
@@ -27,6 +28,14 @@ public class checkouOverviewSteps {
         Assert.assertTrue(checkoutOverviewPage.checkFinishIsvisible());
     }
 
+    @And("verify the total price")
+    public void verifyTheTotalPrice() {
+        String totalPriceCalculated =Float.toString(checkoutOverviewPage.totalItemPriceCalculated()) ;
+        Assert.assertTrue(checkoutOverviewPage.itemTotal().contains(totalPriceCalculated));
+        Assert.assertTrue(checkoutOverviewPage.total().contains(checkoutOverviewPage.totalCalculated()));
+    }
+
+
     @And("user finish the checkout")
     public void userFinishTheCheckout() {
         checkoutOverviewPage.finishButton();
@@ -36,4 +45,6 @@ public class checkouOverviewSteps {
     public void userShouldLandOnTheCompleteCheckoutPage() {
         Assert.assertTrue(checkoutOverviewPage.checkeleIsvisible());
     }
+
+
 }

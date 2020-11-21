@@ -3,7 +3,6 @@ package stepDefs;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import pages.InventoryPage;
 
@@ -55,6 +54,13 @@ public class InventorySteps {
      Assert.assertTrue(inventoryPage.checkProdname().equals(prodname));
     }
 
+
+    @And("the cart button should be visible")
+    public void theCartButtonShouldBeVisible() {
+        inventoryPage.checkCartIsvisible();
+    }
+
+
     @And("user navigates to cart")
     public void userNavigatesToCart() {
        inventoryPage.navigateTocart();
@@ -64,11 +70,12 @@ public class InventorySteps {
     public void theButtonADDTOCARTShouldBeVisibleForEachProduct() {
         Assert.assertTrue(inventoryPage.chechAddCartButton()==6);
     }
-    @Then("user add to cart")
-    public void user_add_to_cart() {
-       inventoryPage.addTocart();
 
+    @Then("user add the product number {string} to cart")
+    public void userAddTheProductNumberToCart(String addele) {
+        inventoryPage.addTocart(Integer.parseInt(addele));
     }
+
 
     @Then("shopping cart number should be incremented")
     public void shoppingCartNumberShouldBeIncremented() {
@@ -80,16 +87,17 @@ public class InventorySteps {
     public void theButtonREMOVEShouldBeVisible() {
       Assert.assertTrue(inventoryPage.checkRemoveButton()!=0);
     }
-    @Then("user remove from cart")
-    public void userRemoveFromCart() {
-        inventoryPage.removeButton();
-    }
 
+    @Then("user remove the product number {string} from cart")
+    public void userRemoveTheProductNumberFromCart(String rmele) {
+        inventoryPage.removeProduct(Integer.parseInt(rmele));
+    }
 
     @Then("shopping cart number should be decremented")
     public void shoppingCartNumberShouldBeDecremented() {
         Assert.assertTrue(inventoryPage.numElemonCart()==inventoryPage.checkRemoveButton());
     }
+
 
 
 }

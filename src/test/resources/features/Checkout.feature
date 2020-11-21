@@ -5,7 +5,8 @@ Feature: Testing the checkout page
     Given user is on the sauceDemo page
     And user logs in with "standard_user","secret_sauce"
     Then user should land on the inventory page
-    And user add to cart
+    And  user add the product number "0" to cart
+    And  user add the product number "3" to cart
     And user navigates to cart
     Then user should land on the cart page
     And the button CHECKOUT should be visible

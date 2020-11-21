@@ -58,6 +58,9 @@ public void navigateTolink (String link){
       System.out.println(firstEle.getText());
       return firstEle.getText();
   }
+  public boolean checkCartIsvisible(){
+      return driver.findElement(By.id("shopping_cart_container")).isDisplayed();
+  }
 public void navigateTocart(){
       driver.findElement(By.id("shopping_cart_container")).click();
 }
@@ -65,8 +68,9 @@ public int chechAddCartButton(){
     List<WebElement> addCart = driver.findElements(By.xpath("//button[@class='btn_primary btn_inventory']"));
     return addCart.size();
 }
-public void addTocart(){
-    driver.findElement(By.xpath("//button[@class='btn_primary btn_inventory']")).click();
+public void addTocart( int ele){
+   WebElement addproduct = driver.findElements(By.xpath("//button[@class='btn_primary btn_inventory']")).get(ele);
+    addproduct.click();
 }
 public int  numElemonCart (){
     List<WebElement> removeCart = driver.findElements(By.xpath("//button[@class='btn_secondary btn_inventory']"));
@@ -88,8 +92,9 @@ public int  numElemonCart (){
         //System.out.println("number of removebutton is "+removeCart.size());
         return removeCart.size();
     }
-    public void removeButton (){
-        driver.findElement(By.xpath("//button[@class='btn_secondary btn_inventory']")).click();
+    public void removeProduct (int ele){
+       WebElement removeProduct= driver.findElements(By.xpath("//button[@class='btn_secondary btn_inventory']")).get(ele);
+       removeProduct.click();
     }
 
 }

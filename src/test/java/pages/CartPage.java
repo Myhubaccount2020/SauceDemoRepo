@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class CartPage {
 
@@ -26,10 +27,11 @@ public class CartPage {
      public  boolean checkremoveIsvisible (){
         return driver.findElement(By.xpath("//button[text()='REMOVE']")).isEnabled();
      }
+    public void removeProduct (int ele){
+        WebElement removeProduct= driver.findElements(By.xpath("//button[@class='btn_secondary cart_button']")).get(ele);
+        removeProduct.click();
+    }
 
-     public void removeButton(){
-         driver.findElement(By.xpath("//button[text()='REMOVE']")).click();
-     }
      public boolean checkCheckoutIsvisible(){
         return driver.findElement(By.xpath("//a[text()='CHECKOUT']")).isDisplayed();
      }

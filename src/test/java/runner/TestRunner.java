@@ -25,7 +25,7 @@ public class TestRunner {
         jsonFiles.add("target/cucumber_report.json");
         //jsonFiles.add("cucumber-report-2.json");
 
-        String buildNumber = "111920";
+        String buildNumber = "112120123";
         String projectName = "MIsauceDemoReport";
 
         Configuration configuration = new Configuration(reportOutputDirectory, projectName);

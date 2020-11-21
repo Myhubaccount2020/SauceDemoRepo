@@ -40,6 +40,6 @@ public class CheckoutPage {
 
     public void itemPrice(){
        String price= driver.findElement(By.className("inventory_item_price")).getText();
-        System.out.println(price);
+
     }
 }
